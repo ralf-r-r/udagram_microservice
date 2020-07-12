@@ -2,21 +2,21 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   labels:
-    k8s-app: frontend-udugram
-  name: frontend-udugram
+    k8s-app: frontend-udagram
+  name: frontend-udagram
 spec:
   replicas: 2
   selector:
     matchLabels:
-      k8s-app: frontend-udugram
+      k8s-app: frontend-udagram
   template:
     metadata:
       labels:
-        k8s-app: frontend-udugram
+        k8s-app: frontend-udagram
     spec:
       containers:
-        - name: frontend-udugram
-          image: ralfrr/udacity_project4_frontend
+        - name: frontend-udagram
+          image: ralfrr/udacity_proj4_frontend
           imagePullPolicy: Always
           ports:
             - containerPort: 80

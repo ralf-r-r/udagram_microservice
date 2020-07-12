@@ -2,13 +2,13 @@ kind: Service
 apiVersion: v1
 metadata:
   labels:
-    k8s-app: backend-user
-  name: backend-user
+    k8s-app: api-user
+  name: api-user
 spec:
   ports:
     - name: "http"
       port: 8080
       targetPort: 8080
   selector:
-    k8s-app: backend-user
+    k8s-app: api-user
   type: ClusterIP

@@ -2,21 +2,21 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   labels:
-    k8s-app: reverseproxy
-  name: reverseproxy
+    k8s-app: reverseproxy-proj4
+  name: reverseproxy-proj4
 spec:
   replicas: 1
   selector:
     matchLabels:
-      k8s-app: reverseproxy
+      k8s-app: reverseproxy-proj4
   template:
     metadata:
       labels:
-        k8s-app: reverseproxy
+        k8s-app: reverseproxy-proj4
     spec:
       containers:
-        - name: reverseproxy
-          image: ralfrr/udacity_project4_reverseproxy
+        - name: reverseproxy-proj4
+          image: ralfrr/udacity_proj4_reverseproxy
           imagePullPolicy: Always
           ports:
             - containerPort: 8080

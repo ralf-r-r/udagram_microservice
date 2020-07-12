@@ -2,13 +2,13 @@ kind: Service
 apiVersion: v1
 metadata:
   labels:
-    k8s-app: frontend-udugram
-  name: frontend-udugram
+    k8s-app: frontend-udagram
+  name: frontend-udagram
 spec:
   ports:
     - name: "http"
       port: 80
       targetPort: 80
   selector:
-    k8s-app: frontend-udugram
+    k8s-app: frontend-udagram
   type: LoadBalancer
