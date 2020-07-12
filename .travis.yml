@@ -1,7 +1,7 @@
-language: node_js
+language: minimal
 node_js:
   - 13
-  
+
 services: docker
 
 env: 
