@@ -1,0 +1,22 @@
+version: '3'
+services:
+  udagram-user:
+    build:
+      context: ./backend-user
+      dockerfile: $PWD//Dockerfile
+    image:  ralfrr/udacity_proj4_user:latest
+  udagram-feed:
+    build:
+      context: ./backend-feed
+      dockerfile: $PWD/Dockerfile
+    image:  ralfrr/udacity_proj4_feed:latest
+  reverseproxy:
+    build:
+      context: ./reverseproxy
+      dockerfile: .$PWD/Dockerfile
+    image:  ralfrr/udacity_proj4_reverseproxy:latest
+  udagram-frontend:
+    build:
+      context: ./frontend
+      dockerfile: $PWD/Dockerfile
+    image:  ralfrr/udacity_proj4_frontend:latest
