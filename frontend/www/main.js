@@ -1493,7 +1493,7 @@ var AuthLoginComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (":host {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n\nion-avatar {\n  width: 35px;\n  height: 35px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWxmL0Rldi9wcm9qNC91ZGFjaXR5X3Byb2o0X2Zyb250ZW5kL3NyYy9hcHAvYXV0aC9hdXRoLW1lbnUtYnV0dG9uL2F1dGgtbWVudS1idXR0b24uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2F1dGgvYXV0aC1tZW51LWJ1dHRvbi9hdXRoLW1lbnUtYnV0dG9uLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksb0JBQUE7RUFBQSxhQUFBO0VBQ0EsOEJBQUE7RUFBQSw2QkFBQTtVQUFBLG1CQUFBO0VBQ0EseUJBQUE7VUFBQSxtQkFBQTtFQUNBLHdCQUFBO1VBQUEsdUJBQUE7QUNDSjs7QURFQTtFQUNJLFdBQUE7RUFDQSxZQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9hdXRoL2F1dGgtbWVudS1idXR0b24vYXV0aC1tZW51LWJ1dHRvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0e1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG5pb24tYXZhdGFyIHtcbiAgICB3aWR0aDogMzVweDtcbiAgICBoZWlnaHQ6IDM1cHg7XG59IiwiOmhvc3Qge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuaW9uLWF2YXRhciB7XG4gIHdpZHRoOiAzNXB4O1xuICBoZWlnaHQ6IDM1cHg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (":host {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n\nion-avatar {\n  width: 35px;\n  height: 35px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWxmL0Rldi91ZGFjaXR5X3Byb2o0X3VkdWdyYW0vZnJvbnRlbmQvc3JjL2FwcC9hdXRoL2F1dGgtbWVudS1idXR0b24vYXV0aC1tZW51LWJ1dHRvbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYXV0aC9hdXRoLW1lbnUtYnV0dG9uL2F1dGgtbWVudS1idXR0b24uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxvQkFBQTtFQUFBLGFBQUE7RUFDQSw4QkFBQTtFQUFBLDZCQUFBO1VBQUEsbUJBQUE7RUFDQSx5QkFBQTtVQUFBLG1CQUFBO0VBQ0Esd0JBQUE7VUFBQSx1QkFBQTtBQ0NKOztBREVBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2F1dGgvYXV0aC1tZW51LWJ1dHRvbi9hdXRoLW1lbnUtYnV0dG9uLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3R7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbmlvbi1hdmF0YXIge1xuICAgIHdpZHRoOiAzNXB4O1xuICAgIGhlaWdodDogMzVweDtcbn0iLCI6aG9zdCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG5pb24tYXZhdGFyIHtcbiAgd2lkdGg6IDM1cHg7XG4gIGhlaWdodDogMzVweDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1897,7 +1897,7 @@ var AuthService = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("ion-title {\n  font-weight: bold;\n  font-family: \"Dancing Script\", cursive;\n  font-size: 180%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWxmL0Rldi9wcm9qNC91ZGFjaXR5X3Byb2o0X2Zyb250ZW5kL3NyYy9hcHAvbWVudWJhci9tZW51YmFyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9tZW51YmFyL21lbnViYXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBQTtFQUNBLHNDQUFBO0VBQ0EsZUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvbWVudWJhci9tZW51YmFyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLXRpdGxlIHsgXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgZm9udC1mYW1pbHk6ICdEYW5jaW5nIFNjcmlwdCcsIGN1cnNpdmU7XG4gICAgZm9udC1zaXplOiAxODAlO1xuICB9IiwiaW9uLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtZmFtaWx5OiBcIkRhbmNpbmcgU2NyaXB0XCIsIGN1cnNpdmU7XG4gIGZvbnQtc2l6ZTogMTgwJTtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("ion-title {\n  font-weight: bold;\n  font-family: \"Dancing Script\", cursive;\n  font-size: 180%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWxmL0Rldi91ZGFjaXR5X3Byb2o0X3VkdWdyYW0vZnJvbnRlbmQvc3JjL2FwcC9tZW51YmFyL21lbnViYXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL21lbnViYXIvbWVudWJhci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGlCQUFBO0VBQ0Esc0NBQUE7RUFDQSxlQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9tZW51YmFyL21lbnViYXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpb24tdGl0bGUgeyBcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBmb250LWZhbWlseTogJ0RhbmNpbmcgU2NyaXB0JywgY3Vyc2l2ZTtcbiAgICBmb250LXNpemU6IDE4MCU7XG4gIH0iLCJpb24tdGl0bGUge1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgZm9udC1mYW1pbHk6IFwiRGFuY2luZyBTY3JpcHRcIiwgY3Vyc2l2ZTtcbiAgZm9udC1zaXplOiAxODAlO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -1955,7 +1955,7 @@ __webpack_require__.r(__webpack_exports__);
 var environment = {
     production: false,
     appName: 'Udagram',
-    apiHost: 'http://a6cd2358b231447678c52827188987e8-457092271.eu-central-1.elb.amazonaws.com:8080/api/v0'
+    apiHost: 'http://a4b845b0b24594c58a59c10e4a0d0f8f-859247026.eu-central-1.elb.amazonaws.com:8080/api/v0'
 };
 /*
  * For easier debugging in development mode, you can import the following file
@@ -2004,7 +2004,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ralf/Dev/proj4/udacity_proj4_frontend/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/ralf/Dev/udacity_proj4_udugram/frontend/src/main.ts */"./src/main.ts");
 
 
 /***/ })
