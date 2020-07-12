@@ -1,0 +1,4 @@
+set_env.sh
+node_modules
+secrets.yaml
+aws_secret.yaml
