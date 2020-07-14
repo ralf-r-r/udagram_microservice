@@ -1,6 +1,6 @@
 # udacity_proj4_udugram
 
-This repo contains the udugram application. The micro service application is made of a two backend services, a reverse proxy and a frontend. The code can be found in the following folders:
+This repo contains the udugram application. The micro service application is made of two backend services, a reverse proxy and a frontend. The code can be found in the following folders:
 
 - The feed backend code is in the folder backend-feed
 - The user backend code is in the folder backend-user
