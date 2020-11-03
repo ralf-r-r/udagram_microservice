@@ -11,5 +11,5 @@ The code is organized as following:
 - eks: Kubernetes deployment files 
 
 # CI/CD 
-the CI/CD pipeline uses travis CI (https://travis-ci.org) and is configured with the `.travis.yaml`
+The CI/CD pipeline uses travis CI (https://travis-ci.org) and is configured with the `.travis.yaml`
 
