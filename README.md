@@ -1,9 +1,9 @@
-# Udagram microservice
+# Feed webapp microservice
 
-This repo contains the udagram application. The micro service application is made of two backend services, a reverse proxy and a frontend. The code can be found in the following folders:
+This repo contains a webapp that allows to create feed and upload items. The webapp is usesa microservice architecture with lean services. The micro service application is made of two backend services, a reverse proxy and a frontend. The code is organized as following:
 
-- The feed backend code is in the folder backend-feed
-- The user backend code is in the folder backend-user
-- The frontend code is in the folder frontend
-- The reverse proxy config is in the fodler reverseproxy
-- Kubernetes deployment.yaml and service.yaml fiels are in the folder eks
+- backend-feed: endpoints for creating feeds and uploading files
+- backend-user: endpoint for authenticati
+- frontend: the frontend implemented with ionic
+- reverseproxy: nginx reverse proxy
+- eks: Kubernetes deployment files 
